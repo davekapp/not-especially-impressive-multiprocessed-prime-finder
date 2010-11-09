@@ -1,0 +1,1 @@
+This is a program made just for testing out the ability to do some processing in Ruby in parallel via IO.popen. The way primes are found is slow. The way the processing is handled isn't too impressive. It was made as a test and some people showed interest in it. That's all.
