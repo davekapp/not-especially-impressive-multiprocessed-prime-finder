@@ -1,1 +1,4 @@
 This is a program made just for testing out the ability to do some processing in Ruby in parallel via IO.popen. The way primes are found is slow. The way the processing is handled isn't too impressive. It was made as a test and some people showed interest in it. That's all.
+
+There's a tiny bit of RSpec stuff I was using to make sure I calculated the primes correctly. I should have done TDD for getting the actual processing steps done as well, but I wasn't sure how RSpec would mesh with a bunch of IO.popen spawned processes. Might add that later and see what happens. To run the specs, do this:
+	rspec -I. spec

@@ -1,5 +1,5 @@
 require "rspec"
-require "../prime_finder"
+require "prime_finder.rb"
 
 describe "PrimeFinder" do
 
